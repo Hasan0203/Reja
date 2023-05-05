@@ -22,7 +22,7 @@ app.get("/hello", function(req, res){
     res.end(`<h1>HELLO WORLD by Hasan!!!</h1>`); 
 });
 app.get("/gift", function(req, res){
-    res.end(`<h1>you are in gifts page</h1>`);  
+    res.end(`<h1>you are in gifts page!</h1>`);  
 });
 
 const server = http.createServer(app);
